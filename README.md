@@ -6,11 +6,11 @@ Given a template:
 <html>
   <body>
     <h1>Hello!</h1>
-	<ul>
-	  @for(item <- items) {
+      <ul>
+      @for(item <- items) {
         <li>@item.name</li>
       }
-	</ul>
+      </ul>
   </body>
 </html>
 ```
