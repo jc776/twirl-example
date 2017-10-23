@@ -1,0 +1,13 @@
+@import example.Item
+@(items: Seq[Item])
+
+<html>
+  <body>
+    <h1>Hello!</h1>
+	<ul>
+	  @for(item <- items) {
+        <li>@item.name</li>
+      }
+	</ul>
+  </body>
+</html>
